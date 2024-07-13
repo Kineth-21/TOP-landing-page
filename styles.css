@@ -13,6 +13,7 @@ body{
 
 .navbar{
     display: flex;
+    flex-wrap: wrap;
     background-color: #1f2937;
     justify-content: space-around;
     align-items: center;
@@ -25,7 +26,8 @@ body{
 
 .headerbtn{
     text-decoration: none;
-    color: white;
+    font-size: 15px;
+    color: #f9faf8;
     margin-right: 10px;
 }
 
@@ -33,4 +35,50 @@ body{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+
+.headercontent{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    background-color: #1f2937;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.headtext{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 1 50%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.headtitle{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.headcontent{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 10px;
+}
+
+.signup{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px;
+    border-radius: 25%;
+    margin-top: 10px;
+}
+
+.headerimg{
+    height: auto;
+    flex: 1 1 50%;
+    max-width: 300px;
+    min-width: 150px;
+    height: auto;
 }
