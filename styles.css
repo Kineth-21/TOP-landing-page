@@ -59,12 +59,14 @@ body{
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    text-align: center;
 }
 
 .headcontent{
     font-size: 18px;
     color: #e5e7eb;
     margin-top: 10px;
+    text-align: left;
 }
 
 .signup{
@@ -80,5 +82,50 @@ body{
     flex: 1 1 50%;
     max-width: 300px;
     min-width: 150px;
-    height: auto;
+}
+
+.content{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.contenthead{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    flex: 1 1 auto;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.subtexts{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.subtext_container{
+    flex: 1 1 20%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    /* border: 5px solid blue; */
+    margin: 0 20px
+}
+
+.subtextimg{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 25px;
+    /* border: 5px solid orange */
+}
+
+.subtext{
+    width: 200px;
+    /* border: 5px solid yellow; */
+    margin: 0 auto;
 }
